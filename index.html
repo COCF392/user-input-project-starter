@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- Adlibs -->
     <div class="main_container">
       <h1 id="main_title"></h1>
       <p id="story_result"></p>
@@ -36,30 +37,35 @@
       </form>
     </div>
 
+    <!-- Mash -->
     <div class="main_container">
-      <form class="form_container">
-        <div class="mash">
-          <label for="title_input">title:</label>
-          <input type="text" id="title_input" placeholder="My Ad Lib" />
+      <h1 id="mash_title">M.A.S.H.</h1>
+      <p id="mash_result"></p>
+      <form class="form_container" id="mash_form">
+        <div class="adlib">
+          <label for="title_input">HOME:</label>
+          <input type="text" id="home" placeholder="Motel" />
         </div>
 
-        <div class="mash">
-          <label for="noun">noun:</label>
-          <input type="text" id="noun" placeholder="Pizza" />
+        <div class="adlib">
+          <label for="noun">PET:</label>
+          <input type="text" id="pet" placeholder="Totoro" />
         </div>
 
-        <div class="mash">
-          <label for="verb">verb:</label>
-          <input type="text" id="verb" placeholder="Exercise" />
+        <div class="adlib">
+          <label for="title_input">JOB:</label>
+          <input type="text" id="job" placeholder="Firefighter" />
         </div>
 
-        <div class="mash">
-          <label for="adjective">adjective:</label>
-          <input type="text" id="adjective" placeholder="Crazy" />
+        <div class="adlib">
+          <label for="noun">SPOUSE:</label>
+          <input type="text" id="spouse" placeholder="Barack Obama" />
         </div>
-        <button id="submit_button">Submit!</button>
+
+        <button id="mash_button">Submit!</button>
       </form>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
